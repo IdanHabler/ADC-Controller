@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Jun  7 12:36:30 2024
+# Process ID: 5024
+# Current directory: C:/Users/User/VIVADOProjects/adc_controller_PYNQ-Z2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13944 C:\Users\User\VIVADOProjects\adc_controller_PYNQ-Z2\adc_controller_PYNQ-Z2.xpr
+# Log file: C:/Users/User/VIVADOProjects/adc_controller_PYNQ-Z2/vivado.log
+# Journal file: C:/Users/User/VIVADOProjects/adc_controller_PYNQ-Z2\vivado.jou
+# Running On: DESKTOP-DLBL5B6, OS: Windows, CPU Frequency: 1498 MHz, CPU Physical cores: 4, Host memory: 16931 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/User/VIVADOProjects/adc_controller_PYNQ-Z2/adc_controller_PYNQ-Z2.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1

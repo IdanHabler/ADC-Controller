@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Tue May 21 12:33:48 2024
+# Process ID: 10388
+# Current directory: C:/Users/Idan/OneDrive - mail.tau.ac.il/Desktop/EE Project/adc_controller_PYNQ-Z2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16076 C:\Users\Idan\OneDrive - mail.tau.ac.il\Desktop\EE Project\adc_controller_PYNQ-Z2\adc_controller_PYNQ-Z2.xpr
+# Log file: C:/Users/Idan/OneDrive - mail.tau.ac.il/Desktop/EE Project/adc_controller_PYNQ-Z2/vivado.log
+# Journal file: C:/Users/Idan/OneDrive - mail.tau.ac.il/Desktop/EE Project/adc_controller_PYNQ-Z2\vivado.jou
+# Running On: Kinder, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 8, Host memory: 17072 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Idan/OneDrive - mail.tau.ac.il/Desktop/EE Project/adc_controller_PYNQ-Z2/adc_controller_PYNQ-Z2.xpr}
+open_bd_design {C:/Users/Idan/OneDrive - mail.tau.ac.il/Desktop/EE Project/adc_controller_PYNQ-Z2/adc_controller_PYNQ-Z2.srcs/sources_1/bd/design_1/design_1.bd}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/Idan/OneDrive - mail.tau.ac.il/Desktop/EE Project/adc_controller_PYNQ-Z2/adc_controller_PYNQ-Z2.srcs/sources_1/new/control.v} w ]
+add_files {{C:/Users/Idan/OneDrive - mail.tau.ac.il/Desktop/EE Project/adc_controller_PYNQ-Z2/adc_controller_PYNQ-Z2.srcs/sources_1/new/control.v}}
+update_compile_order -fileset sources_1
