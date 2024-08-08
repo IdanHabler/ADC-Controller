@@ -6,7 +6,8 @@
 
 ## פרק א' - תרשים הבלוקים
 תרשים הבלוקים נבנה באמצעות VIVADO ונראה כך:
-![image](https://github.com/user-attachments/assets/3216ca93-5484-44ef-a717-683b5682a26d)
+![Vivado Block Design](https://github.com/user-attachments/assets/dadc7c27-8dec-4b7c-9b8a-edaddce844a9)
+
 
 
 בתרשים נראים מספר בלוקים:
@@ -37,7 +38,8 @@ set_property -dict {PACKAGE_PIN N17 IOSTANDARD LVCMOS33} [get_ports adc_SCK]
 חלק זה מבוסס על המדריך הרשמי באתר PYNQ[^2]:
 
 
-![image](https://github.com/user-attachments/assets/fbb21b0a-bc97-4884-8d68-da9989d13ba9)
+![image](https://github.com/user-attachments/assets/e771022b-075d-471b-9cc8-15ac64f7c110)
+
 ### הוראות חיבור
 1. יש להזיז את jumper ה-Boot למצב SD.
 2. יש להזיז את jumper ה-Power למצב USB.
@@ -58,20 +60,25 @@ set_property -dict {PACKAGE_PIN N17 IOSTANDARD LVCMOS33} [get_ports adc_SCK]
 
 ### חיבור כרטיס ה-PYNQ אל ה-EVAL-AD4115
 חלק זה נבנה על המידע הרשום במפרט הלוח הרשמי מבית Analog Devices[^5]
-![image](https://github.com/user-attachments/assets/65a4a949-de73-45f7-a88d-a8eeeb3e2697)
+![image](https://github.com/user-attachments/assets/68c726c2-0665-4238-af9c-2fbd50d993a9)
+
 
 כאמור, אנו נתחבר אל הלוח באמצעות הפינים הסטנדרטיים של הארדואינו. לשם כך יש לאפשר זאת באמצעות חיבור ה-jumpers הקרויים LK4 - LK6 למצב חיבור סטנדרטי:
 
-![image](https://github.com/user-attachments/assets/5462ad13-341a-41f9-8c97-c09bd8f4ea2c)
+![image](https://github.com/user-attachments/assets/ac4d2b4d-bc51-448e-84de-69deb70fb531)
+
 
 כמו כן, יש לחבר את ה-jumpers בחיבור J6 כך שהאותות שיוזנו הלאה ל-ADC יגיעו מהפינים הסטנדרטיים של הארדואינו ב-J9:
 
-![image](https://github.com/user-attachments/assets/2bde224f-2340-434f-b54a-45b3cc6b56fc)
-![image](https://github.com/user-attachments/assets/52a7a998-ea69-489d-91d0-8b6bddd5ba96)
+![image](https://github.com/user-attachments/assets/070dcecb-c3c8-4dad-bfea-1e6e0f9fa067)
+
+![image](https://github.com/user-attachments/assets/eea4883d-d438-41ae-b70b-bf5a3c6a8e00)
+
 
 כמו כן, כיוון שאנו משתמשים בספק כוח חיצוני, יש לחבר את LK3 במצב A, כך שיחובר ל-J4:
 
-![image](https://github.com/user-attachments/assets/fb04f05d-3e25-40b9-a622-95a40511c0fc)
+![image](https://github.com/user-attachments/assets/6f268f3d-b295-481f-841f-75de19d3f81e)
+
 
 
 
