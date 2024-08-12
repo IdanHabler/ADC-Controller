@@ -622,7 +622,8 @@ def update_fc_widgets(enable, widget):
 
 כעת, לאחר שבנתה התוכנית את כל החלונות, מריצים את פונקציית ה-`()mainloop` של אובייקט `Tk` וכך מוצג החלון.
 
-![Voltage Waveform Example](https://github.com/user-attachments/assets/b6d69af5-4495-47dd-b9d7-0a26822857a4)
+![Voltage Waveform Example](https://github.com/user-attachments/assets/808448f3-b821-43cf-8471-997cf1622240)
+
 
 > [!TIP]
 > שימוש מהנה ובהצלחה!
